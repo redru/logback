@@ -1,0 +1,6 @@
+<included>
+
+  <property name="MK_PATTERN" value="dt:%d{YYYY-mm-DD'T'HH:mm:ssZZZ} # ts:%ts # mdc:%X{LAST} # [%thread] ${ENV} %-5level %logger{36} - %msg%n" />
+
+  <conversionRule conversionWord="ts" converterClass="UnixTimestampConverter" />
+</included>
